@@ -1,0 +1,38 @@
+.spriteContainer{
+	background: url(video-icons.png) no-repeat;
+}
+
+.beginning1 {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-position: -44px 0px;
+}
+
+.fast-rewind1 {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-position: -22px -22px;
+}
+
+.play-pause1 {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-position: 0px 0px;
+}
+
+.fast-forward1 {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-position: -44px -22px;
+}
+
+.end1 {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-position: 0px -22px;
+}

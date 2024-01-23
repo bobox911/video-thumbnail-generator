@@ -10,7 +10,7 @@ var snapSize = document.querySelector('#snapsize');
 var context = canvas.getContext('2d');
 var slider = document.querySelector('#slider');
 var w, h, ratio;
-//add loadedmetadata which will helps to identify video attributes
+
 
 function timeUpdate() {
   slider.setAttribute('max', Math.ceil(video.duration))
@@ -120,11 +120,11 @@ function savePicture(btn) {
   btn.disabled = true
   var dataURL = canvas.toDataURL();
   var link = document.getElementById("imagelink");
+  var filename1 = document.getElementById("videofile").value
   link.style.display = '';
   link.style.opacity = 0
   link.href = dataURL;
-  var rnd = Math.round((Math.random() * 10000));
-  link.setAttribute("download", "video-capture-" + rnd + ".png");
+  link.setAttribute("download", filename1.split(/[\\/]/g).pop().split('.')[0] + ".png");
   link.click();
   setTimeout(function(){
     btn.disabled = false

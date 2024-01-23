@@ -19,9 +19,9 @@ Changes
 - made generator offline capable
   - loaded neccesarry files into repository
 - redesigned video seek buttons
+- changed image output filename to match uploaded video filename
 
 
 To-Do
 
-- rename the PNG files to "video file-thumbnail.png"
 - make exe file to use instead of in an internet browser

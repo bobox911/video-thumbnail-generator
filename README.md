@@ -11,7 +11,8 @@ You do not need to be connecte to the internet to run this tool.
 # Changes
 * made generator offline capable
   * loaded neccesarry files into repository
-* redesigned video seek buttons* changed image output filename to match uploaded video filename
+* redesigned video seek buttons
+* changed image output filename to match uploaded video filename
 
 # To-Do
 

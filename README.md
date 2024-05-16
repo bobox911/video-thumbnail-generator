@@ -6,7 +6,7 @@ Simple video thumbnail generator using HTML and Javascript.
 * Finally, the canvas image is exported as a PNG file using the size selected by the user.
 
 To run, download the zip file and extract it. Then run the "index.html" file in your internet browser.
-You do not need to be connecte to the internet to run this tool.
+If you have downloaded it, you can run this tool without an internet connection.
 
 # Changes
 * made generator offline capable
@@ -17,3 +17,4 @@ You do not need to be connecte to the internet to run this tool.
 # To-Do
 
 * make exe file to use instead of in an internet browser
+* add image output file type selector for png or jpg 
